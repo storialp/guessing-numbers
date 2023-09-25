@@ -5,6 +5,12 @@ export default function Home() {
   const [number, setNumber] = useState(0);
   return (
     <>
+      <a
+        className="underline"
+        href="https://github.com/storialp/guessing-numbers/blob/main/src/pages/index.jsx"
+      >
+        See the code here
+      </a>
       <div>
         <label
           htmlFor="number"
